@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespacegr_1_1drf" kind="namespace">
+    <compoundname>gr::drf</compoundname>
+    <innerclass refid="classgr_1_1drf_1_1digital__rf" prot="public">gr::drf::digital_rf</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/pi/src/gr-drf/include/drf/digital_rf.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

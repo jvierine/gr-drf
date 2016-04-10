@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="digital__rf_8h" kind="file">
+    <compoundname>digital_rf.h</compoundname>
+    <includes refid="api_8h" local="no">drf/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="digital__rf__impl_8h" local="no">digital_rf_impl.h</includedby>
+    <incdepgraph>
+      <node id="26">
+        <label>digital_rf.h</label>
+        <link refid="digital_rf.h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="27">
+        <label>drf/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="31">
+        <label>digital_rf_impl.h</label>
+        <link refid="digital__rf__impl_8h"/>
+      </node>
+      <node id="30">
+        <label>digital_rf.h</label>
+        <link refid="digital_rf.h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1drf_1_1digital__rf" prot="public">gr::drf::digital_rf</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1drf">gr::drf</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/pi/src/gr-drf/include/drf/digital_rf.h"/>
+  </compounddef>
+</doxygen>

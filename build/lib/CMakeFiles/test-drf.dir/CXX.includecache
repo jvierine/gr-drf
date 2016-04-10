@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/src/gr-drf/lib/qa_drf.cc
+qa_drf.h
+/home/pi/src/gr-drf/lib/qa_drf.h
+
+/home/pi/src/gr-drf/lib/qa_drf.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/home/pi/src/gr-drf/lib/test_drf.cc
+config.h
+/home/pi/src/gr-drf/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_drf.h
+/home/pi/src/gr-drf/lib/qa_drf.h
+iostream
+-
+fstream
+-
+

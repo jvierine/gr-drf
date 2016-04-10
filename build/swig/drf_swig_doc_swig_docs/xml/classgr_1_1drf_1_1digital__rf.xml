@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classgr_1_1drf_1_1digital__rf" kind="class" prot="public">
+    <compoundname>gr::drf::digital_rf</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="digital__rf_8h" local="no">digital_rf.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1drf_1_1digital__rf_1a6f2df0683446f95ac67820f1b18c7528" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1drf_1_1digital__rf" kindref="compound">digital_rf</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;digital_rf&gt; gr::drf::digital_rf::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/include/drf/digital_rf.h" line="39" column="1" bodyfile="/home/pi/src/gr-drf/include/drf/digital_rf.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1drf_1_1digital__rf_1af8f88b7f2dc50570471a75ede4459d3e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1drf_1_1digital__rf_1a6f2df0683446f95ac67820f1b18c7528" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::drf::digital_rf::make</definition>
+        <argsstring>(char *dir, int file_len, int files_per_dir, size_t size, double sample_rate, int short_to_char, int stop_on_dropped_packet)</argsstring>
+        <name>make</name>
+        <param>
+          <type>char *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>file_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>files_per_dir</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sample_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>short_to_char</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stop_on_dropped_packet</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1drf_1_1digital__rf" kindref="compound">drf::digital_rf</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1drf_1_1digital__rf" kindref="compound">drf::digital_rf</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1drf_1_1digital__rf_1af8f88b7f2dc50570471a75ede4459d3e" kindref="member">drf::digital_rf::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/include/drf/digital_rf.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1drf_1_1digital__rf_1a5ea22168fe61fb684f68714dd69f0f88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::drf::digital_rf::set_t0</definition>
+        <argsstring>(double t0)</argsstring>
+        <name>set_t0</name>
+        <param>
+          <type>double</type>
+          <declname>t0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/include/drf/digital_rf.h" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="0">
+        <label>gr::drf::digital_rf</label>
+        <link refid="classgr_1_1drf_1_1digital__rf"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="2">
+        <label>gr::drf::digital_rf</label>
+        <link refid="classgr_1_1drf_1_1digital__rf"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/pi/src/gr-drf/include/drf/digital_rf.h" line="37" column="1" bodyfile="/home/pi/src/gr-drf/include/drf/digital_rf.h" bodystart="36" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1drf_1_1digital__rf_1af8f88b7f2dc50570471a75ede4459d3e" prot="public" virt="non-virtual"><scope>gr::drf::digital_rf</scope><name>make</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf_1a5ea22168fe61fb684f68714dd69f0f88" prot="public" virt="non-virtual"><scope>gr::drf::digital_rf</scope><name>set_t0</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf_1a6f2df0683446f95ac67820f1b18c7528" prot="public" virt="non-virtual"><scope>gr::drf::digital_rf</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

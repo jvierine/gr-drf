@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -I/usr/include/hdf5/serial  -O3 -DNDEBUG   -shared -Wl,-soname,libgnuradio-drf.so -o libgnuradio-drf.so CMakeFiles/gnuradio-drf.dir/digital_rf_impl.cc.o -lboost_filesystem -lboost_system -lgnuradio-runtime -lgnuradio-pmt -lm -lhdf5 -L/usr/lib/arm-linux-gnueabihf/hdf5/serial -lhdf5 -ldigital_rf 

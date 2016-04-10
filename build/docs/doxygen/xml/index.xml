@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.8">
+  <compound refid="classgr_1_1drf_1_1digital__rf" kind="class"><name>gr::drf::digital_rf</name>
+    <member refid="classgr_1_1drf_1_1digital__rf_1a6f2df0683446f95ac67820f1b18c7528" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf_1af8f88b7f2dc50570471a75ede4459d3e" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf_1a5ea22168fe61fb684f68714dd69f0f88" kind="function"><name>set_t0</name></member>
+  </compound>
+  <compound refid="classgr_1_1drf_1_1digital__rf__impl" kind="class"><name>gr::drf::digital_rf_impl</name>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a309802dcbdb9ae1787a1c79b521e3f9b" kind="variable"><name>drf</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a0190871e4f7bb2acbaa49212b87bdb62" kind="variable"><name>sample_rate</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a1a5d857bf34c90a6646a647b54de8a84" kind="variable"><name>size</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a19daec203819dbbbee60e7046a917eaf" kind="variable"><name>files_per_dir</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1af85516333d7c06b4c5ab49dbc7046be9" kind="variable"><name>file_len</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1af2a73a4dcd7719e7fe531af820c5ebb2" kind="variable"><name>dirn</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a116b1ca44d059daa6cedfd12df5c795a" kind="variable"><name>t0</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a04644a2e402b964bc5eb86319f9a5e9c" kind="variable"><name>_t0</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1aaf76cb559f820b7be4d17255d269cd07" kind="variable"><name>local_index</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a4fb6b1b7f1df6e9fd15faf070af22460" kind="variable"><name>total_dropped</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a5efefb128c17bd73b785fa0cfcffcdd2" kind="variable"><name>ut0</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a6a1ab48a2d79fff50a30fbc4450ece14" kind="variable"><name>first</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a6b8342ce6eeb61bb86f40dad48b4d404" kind="variable"><name>char_buffer</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1ab5f331e742113d1f605709de8365e46c" kind="variable"><name>short_to_char</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a87fcea002f9348266306c81ff9a0ec83" kind="variable"><name>scale_factor</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a90290ebffb93fa9daddbd6ec638b80c2" kind="variable"><name>stop_on_dropped_packet</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a73f7dbd253a858665049849c503e2b2b" kind="variable"><name>t0_set</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1ac1628f7f1e548d3dd31c93ace2916294" kind="function"><name>digital_rf_impl</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a6fd5c831d6a74522201cbc0bc76f4e32" kind="function"><name>~digital_rf_impl</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1abba69a00b6b53d688367ad8e96b4bf89" kind="function"><name>detect_overflow</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a3bd52c9f11f6ba9e04eaf3b87b6c2c18" kind="function"><name>get_rx_time</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a15b39007c756d268ef4f5096003dbdfe" kind="function"><name>enable_short_to_char</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a126aa601b689e27a0ef27310b4b104bf" kind="function"><name>short_to_char_conv</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1a3e67915ee2733122ffd996f2a7e330ad" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1drf_1_1digital__rf__impl_1aeab71c066d818358bd21d4292e6458e9" kind="function"><name>set_t0</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1drf" kind="namespace"><name>gr::drf</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a9ecc53dceaa1288a964807d679895aeb" kind="define"><name>DRF_API</name></member>
+  </compound>
+  <compound refid="digital__rf_8h" kind="file"><name>digital_rf.h</name>
+  </compound>
+  <compound refid="digital__rf__impl_8h" kind="file"><name>digital_rf_impl.h</name>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_e526632455da1b79e911d28c080d1b48" kind="dir"><name>drf</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

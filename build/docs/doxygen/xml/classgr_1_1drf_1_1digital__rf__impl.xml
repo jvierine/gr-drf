@@ -1,0 +1,473 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="classgr_1_1drf_1_1digital__rf__impl" kind="class" prot="public">
+    <compoundname>gr::drf::digital_rf_impl</compoundname>
+    <basecompoundref refid="classgr_1_1drf_1_1digital__rf" prot="public" virt="non-virtual">gr::drf::digital_rf</basecompoundref>
+    <includes refid="digital__rf__impl_8h" local="no">digital_rf_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1a309802dcbdb9ae1787a1c79b521e3f9b" prot="private" static="no" mutable="no">
+        <type>Digital_rf_write_object *</type>
+        <definition>Digital_rf_write_object* gr::drf::digital_rf_impl::drf</definition>
+        <argsstring></argsstring>
+        <name>drf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="37" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1a0190871e4f7bb2acbaa49212b87bdb62" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::drf::digital_rf_impl::sample_rate</definition>
+        <argsstring></argsstring>
+        <name>sample_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="38" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1a1a5d857bf34c90a6646a647b54de8a84" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::drf::digital_rf_impl::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="39" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1a19daec203819dbbbee60e7046a917eaf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::drf::digital_rf_impl::files_per_dir</definition>
+        <argsstring></argsstring>
+        <name>files_per_dir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="40" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1af85516333d7c06b4c5ab49dbc7046be9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::drf::digital_rf_impl::file_len</definition>
+        <argsstring></argsstring>
+        <name>file_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="41" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1af2a73a4dcd7719e7fe531af820c5ebb2" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char gr::drf::digital_rf_impl::dirn[4096]</definition>
+        <argsstring>[4096]</argsstring>
+        <name>dirn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="42" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1a116b1ca44d059daa6cedfd12df5c795a" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::drf::digital_rf_impl::t0</definition>
+        <argsstring></argsstring>
+        <name>t0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="43" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1a04644a2e402b964bc5eb86319f9a5e9c" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::drf::digital_rf_impl::_t0</definition>
+        <argsstring></argsstring>
+        <name>_t0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="43" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1aaf76cb559f820b7be4d17255d269cd07" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::drf::digital_rf_impl::local_index</definition>
+        <argsstring></argsstring>
+        <name>local_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="44" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1a4fb6b1b7f1df6e9fd15faf070af22460" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::drf::digital_rf_impl::total_dropped</definition>
+        <argsstring></argsstring>
+        <name>total_dropped</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="45" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1a5efefb128c17bd73b785fa0cfcffcdd2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::drf::digital_rf_impl::ut0</definition>
+        <argsstring></argsstring>
+        <name>ut0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="46" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1a6a1ab48a2d79fff50a30fbc4450ece14" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::drf::digital_rf_impl::first</definition>
+        <argsstring></argsstring>
+        <name>first</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="47" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1a6b8342ce6eeb61bb86f40dad48b4d404" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* gr::drf::digital_rf_impl::char_buffer</definition>
+        <argsstring></argsstring>
+        <name>char_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="49" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1ab5f331e742113d1f605709de8365e46c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::drf::digital_rf_impl::short_to_char</definition>
+        <argsstring></argsstring>
+        <name>short_to_char</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="50" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1a87fcea002f9348266306c81ff9a0ec83" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::drf::digital_rf_impl::scale_factor</definition>
+        <argsstring></argsstring>
+        <name>scale_factor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="51" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1a90290ebffb93fa9daddbd6ec638b80c2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::drf::digital_rf_impl::stop_on_dropped_packet</definition>
+        <argsstring></argsstring>
+        <name>stop_on_dropped_packet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="52" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1drf_1_1digital__rf__impl_1a73f7dbd253a858665049849c503e2b2b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::drf::digital_rf_impl::t0_set</definition>
+        <argsstring></argsstring>
+        <name>t0_set</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="53" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1drf_1_1digital__rf__impl_1ac1628f7f1e548d3dd31c93ace2916294" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::drf::digital_rf_impl::digital_rf_impl</definition>
+        <argsstring>(char *dir, int file_len, int files_per_dir, size_t size, double sample_rate, int short_to_char, int stop_on_dropped_packet)</argsstring>
+        <name>digital_rf_impl</name>
+        <param>
+          <type>char *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>file_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>files_per_dir</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sample_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>short_to_char</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stop_on_dropped_packet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1drf_1_1digital__rf__impl_1a6fd5c831d6a74522201cbc0bc76f4e32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::drf::digital_rf_impl::~digital_rf_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~digital_rf_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1drf_1_1digital__rf__impl_1abba69a00b6b53d688367ad8e96b4bf89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::drf::digital_rf_impl::detect_overflow</definition>
+        <argsstring>(uint64_t start, uint64_t end)</argsstring>
+        <name>detect_overflow</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1drf_1_1digital__rf__impl_1a3bd52c9f11f6ba9e04eaf3b87b6c2c18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::drf::digital_rf_impl::get_rx_time</definition>
+        <argsstring>(int n)</argsstring>
+        <name>get_rx_time</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1drf_1_1digital__rf__impl_1a15b39007c756d268ef4f5096003dbdfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::drf::digital_rf_impl::enable_short_to_char</definition>
+        <argsstring>()</argsstring>
+        <name>enable_short_to_char</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1drf_1_1digital__rf__impl_1a126aa601b689e27a0ef27310b4b104bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::drf::digital_rf_impl::short_to_char_conv</definition>
+        <argsstring>(short *in, char *out, int len)</argsstring>
+        <name>short_to_char_conv</name>
+        <param>
+          <type>short *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1drf_1_1digital__rf__impl_1a3e67915ee2733122ffd996f2a7e330ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::drf::digital_rf_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1drf_1_1digital__rf__impl_1aeab71c066d818358bd21d4292e6458e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::drf::digital_rf_impl::set_t0</definition>
+        <argsstring>(double t0)</argsstring>
+        <name>set_t0</name>
+        <param>
+          <type>double</type>
+          <declname>t0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="67" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="13">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="12">
+        <label>gr::drf::digital_rf</label>
+        <link refid="classgr_1_1drf_1_1digital__rf"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gr::drf::digital_rf_impl</label>
+        <link refid="classgr_1_1drf_1_1digital__rf__impl"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="15">
+        <label>gr::drf::digital_rf</label>
+        <link refid="classgr_1_1drf_1_1digital__rf"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>gr::drf::digital_rf_impl</label>
+        <link refid="classgr_1_1drf_1_1digital__rf__impl"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/pi/src/gr-drf/lib/digital_rf_impl.h" line="34" column="1" bodyfile="/home/pi/src/gr-drf/lib/digital_rf_impl.h" bodystart="33" bodyend="79"/>
+    <listofallmembers>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a04644a2e402b964bc5eb86319f9a5e9c" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>_t0</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a6b8342ce6eeb61bb86f40dad48b4d404" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>char_buffer</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1abba69a00b6b53d688367ad8e96b4bf89" prot="public" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>detect_overflow</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1ac1628f7f1e548d3dd31c93ace2916294" prot="public" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>digital_rf_impl</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1af2a73a4dcd7719e7fe531af820c5ebb2" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>dirn</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a309802dcbdb9ae1787a1c79b521e3f9b" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>drf</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a15b39007c756d268ef4f5096003dbdfe" prot="public" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>enable_short_to_char</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1af85516333d7c06b4c5ab49dbc7046be9" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>file_len</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a19daec203819dbbbee60e7046a917eaf" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>files_per_dir</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a6a1ab48a2d79fff50a30fbc4450ece14" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>first</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a3bd52c9f11f6ba9e04eaf3b87b6c2c18" prot="public" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>get_rx_time</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1aaf76cb559f820b7be4d17255d269cd07" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>local_index</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf_1af8f88b7f2dc50570471a75ede4459d3e" prot="public" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a0190871e4f7bb2acbaa49212b87bdb62" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>sample_rate</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a87fcea002f9348266306c81ff9a0ec83" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>scale_factor</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1aeab71c066d818358bd21d4292e6458e9" prot="public" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>set_t0</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1ab5f331e742113d1f605709de8365e46c" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>short_to_char</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a126aa601b689e27a0ef27310b4b104bf" prot="public" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>short_to_char_conv</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a1a5d857bf34c90a6646a647b54de8a84" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>size</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf_1a6f2df0683446f95ac67820f1b18c7528" prot="public" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a90290ebffb93fa9daddbd6ec638b80c2" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>stop_on_dropped_packet</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a116b1ca44d059daa6cedfd12df5c795a" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>t0</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a73f7dbd253a858665049849c503e2b2b" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>t0_set</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a4fb6b1b7f1df6e9fd15faf070af22460" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>total_dropped</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a5efefb128c17bd73b785fa0cfcffcdd2" prot="private" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>ut0</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a3e67915ee2733122ffd996f2a7e330ad" prot="public" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1drf_1_1digital__rf__impl_1a6fd5c831d6a74522201cbc0bc76f4e32" prot="public" virt="non-virtual"><scope>gr::drf::digital_rf_impl</scope><name>~digital_rf_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

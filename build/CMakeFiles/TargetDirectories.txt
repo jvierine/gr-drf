@@ -1,0 +1,12 @@
+/home/pi/src/gr-drf/build/swig/CMakeFiles/_drf_swig.dir
+/home/pi/src/gr-drf/build/swig/CMakeFiles/_drf_swig_doc_tag.dir
+/home/pi/src/gr-drf/build/swig/CMakeFiles/_drf_swig_swig_tag.dir
+/home/pi/src/gr-drf/build/docs/doxygen/CMakeFiles/doxygen_target.dir
+/home/pi/src/gr-drf/build/swig/CMakeFiles/drf_swig_swig_2d0df.dir
+/home/pi/src/gr-drf/build/swig/CMakeFiles/drf_swig_swig_doc.dir
+/home/pi/src/gr-drf/build/lib/CMakeFiles/gnuradio-drf.dir
+/home/pi/src/gr-drf/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/pi/src/gr-drf/build/python/CMakeFiles/pygen_python_69a91.dir
+/home/pi/src/gr-drf/build/swig/CMakeFiles/pygen_swig_05bc0.dir
+/home/pi/src/gr-drf/build/lib/CMakeFiles/test-drf.dir
+/home/pi/src/gr-drf/build/CMakeFiles/uninstall.dir
